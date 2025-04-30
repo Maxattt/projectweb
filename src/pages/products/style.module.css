@@ -1,0 +1,65 @@
+.productsPage {
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+.addProductButton {
+  padding: 10px 15px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.productList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.productCard {
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.productCard img {
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+.productCard button {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.productForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.productForm input {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.productForm button {
+  padding: 10px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

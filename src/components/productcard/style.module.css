@@ -1,0 +1,23 @@
+.card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1rem;
+  }
+  
+  .deleteButton {
+    margin-top: 0.5rem;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c53030;
+  }
+  
